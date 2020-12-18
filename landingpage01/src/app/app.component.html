@@ -1,0 +1,45 @@
+<!-- Load Facebook SDK for JavaScript -->
+<main>
+    <div class="container-fluid ">
+        <app-header></app-header>
+    </div>
+
+    <div class="container-fluid">
+
+        <app-menu></app-menu>
+        <app-banner></app-banner>
+        <app-gioithieu></app-gioithieu>
+        <app-lidoluachon></app-lidoluachon>
+        <app-gioithieukhoahoc></app-gioithieukhoahoc>
+        <app-khungchuongtrinh></app-khungchuongtrinh>
+        <app-doingumentor></app-doingumentor>
+        <app-doanhnghiep></app-doanhnghiep>
+        <app-camnhanhocvien></app-camnhanhocvien>
+        <app-hoatdonglophoc></app-hoatdonglophoc>
+        <app-lienhe></app-lienhe>
+        <div id="fb-root"></div>
+        <script>
+            window.fbAsyncInit = function() {
+                FB.init({
+                    xfbml: true,
+                    version: 'v9.0'
+                });
+            };
+
+            (function(d, s, id) {
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) return;
+                js = d.createElement(s);
+                js.id = id;
+                js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+        </script>
+
+        <!-- Your Chat Plugin code -->
+        <div class="fb-customerchat" attribution=setup_tool page_id="1192738010843142">
+        </div>
+
+    </div>
+
+</main>

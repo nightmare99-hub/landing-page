@@ -1,0 +1,42 @@
+ul {
+    /* định nghĩa một list / tức danh sách */
+    list-style-type: none;
+    /* kiểu của các dòng trong danh sách là không có gì đầu dòng */
+    margin: 0;
+    /* thụt lề bằng 0 */
+    padding: 0;
+    /* vùng đệm để đẩy thành phần chứa bên trong thụt vô bằng 0 */
+    overflow: hidden;
+    /* nếu chữ/ hình bị tràn ra ngoài, cắt bỏ */
+    background-color: #0b0638;
+    /* màu chữ của các thứ chứa trong danh sách là màu đen hơi xám */
+}
+
+li {
+    margin-left: 70px;
+    /* định nghĩ cho các dòng trong danh sách */
+    float: left;
+    /* cho các dòng trôi nổi về góc bên trái như những cục shit trôi sông tấp vào bờ trái */
+}
+
+li a {
+    font-weight: bolder;
+    /* định nghĩa thẻ a nằm bên trong một thẻ li */
+    display: block;
+    /* bình thường thẻ a là thẻ inline, không phải block, giờ cho nó thành block */
+    color: white;
+    /* màu chữ sẽ là màu trắng */
+    text-align: center;
+    /* canh lề giữa cho chữ, tức thẻ a sẽ là khối chữ nhật, chữ nằm giữa, canh đều hai bên */
+    padding: 16px;
+    /* vùng đệm thụt vào 16px rồi mới đến nội dung bên trong a */
+    text-decoration: none;
+    /* không trang trí hoa hòe hoa sói, tức rà chuột, kích chuột,... chữ vẫn trắng mà không ra màu khác hay chớp nháy, gạch chân gì cả */
+}
+
+li a:hover {
+    /* định nghĩa hành động cho thẻ a khi rà chuột */
+    background-color: #eeff00;
+    color: black;
+    /* khi rà chuột vào khối chữ nhật do thẻ a taoọ ra thì đổi màu nền thành màu */
+}

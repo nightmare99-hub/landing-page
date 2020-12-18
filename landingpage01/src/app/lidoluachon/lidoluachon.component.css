@@ -1,0 +1,145 @@
+.three {
+    background: #ffffff;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffffff, #36D1DC);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #5B86E5, #36D1DC);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.img-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    padding-bottom: 20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.img-overlay:before {
+    content: ' ';
+    display: block;
+    /* adjust 'height' to position overlay content vertically */
+    height: 33%;
+}
+
+div {
+    font-weight: bolder;
+    color: white;
+}
+
+h2 {
+    font-weight: bolder;
+    color: yellow;
+    text-shadow: black 0.1em 0.1em 0.2em
+}
+
+div em {
+    color: rgb(1, 1, 151);
+    font-style: normal;
+}
+
+.col1 {
+    background-color: #e4bd31;
+}
+
+.col2 {
+    background-color: #e4bd31;
+}
+
+.col3 {
+    background-color: #e4bd31;
+}
+
+.col4 {
+    background-color: #e4bd31;
+}
+
+.col5 {
+    background-color: #e4bd31;
+}
+
+.col {
+    margin-left: 30px;
+    width: 180px;
+    height: 150px;
+    border-radius: 30px;
+    font-size: 18px;
+}
+
+p {
+    line-height: 30px;
+}
+
+.col:hover {
+    background-color: rgb(58, 74, 129);
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col col1"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    p {
+        line-height: 10px;
+    }
+    [class*="col col2"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    [class*="col col3"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    [class*="col col4"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    [class*="col col5"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    /* For mobile phones: */
+    [class*="col col1"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    p {
+        line-height: 20px;
+    }
+    [class*="col col2"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    [class*="col col3"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    [class*="col col4"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+    [class*="col col5"] {
+        width: 60%;
+        height: 60%;
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,42 @@
+.nav {
+    background: rgb(255, 255, 255);
+}
+
+.bg-light {
+    background-color: rgb(255, 255, 255)!important;
+}
+
+.nav-item.active .nav-link {
+    color: #cb356b;
+}
+
+.display-3 {
+    color: #fff;
+    display: block;
+    margin-top: 30px;
+}
+
+
+/*==Reset CSS==*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*==Style cơ bản cho website==*/
+
+div li a {
+    font-weight: bolder!important;
+    margin-left: 10px!important;
+    color: black;
+}
+
+#trangchu:hover {
+    color: yellow!important;
+}
+
+#nav-item:hover {
+    color: yellow!important;
+}
